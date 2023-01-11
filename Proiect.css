@@ -1,0 +1,843 @@
+html,
+body {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    position: static;
+}
+
+.weDwellingSection {
+    background-size: 100% 100%;
+    background-image: url(Images/Media/pexels-photo-941245.jpg);
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.weDwellingSectionSquare {
+    padding-right: 0;
+}
+
+.weDwellingSectionWrapper {
+    height: 600px;
+    padding: 0
+}
+
+.weDwellingSectionLeft {
+    padding: 30px;
+    border: 20px solid blue;
+    border-width: 20px;
+    max-width: 100%;
+    text-align: left;
+    height: 300px;
+    width: 300px;
+    min-width: 210px;
+}
+
+.weDwellingSectionRight {
+    text-align: right;
+}
+
+.weDwellingSectionP1 {
+    margin-top: 0;
+    font-weight: 700;
+    padding: 0;
+    position: relative;
+}
+
+.textDwelling {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0;
+    position: relative;
+}
+
+.weDwellingSectionP2 {
+    text-align: start;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.weDwellingSectionP3 {
+    font-weight: bolder;
+}
+
+@media (max-width: 992px) {
+
+    html,
+    body {
+        margin-left: 15px;
+    }
+
+    .headerImg {
+        visibility: hidden;
+    }
+
+    .weDwellingSection {
+        margin-top: 50px;
+    }
+
+    .weDwellingSectionWrapper {
+        padding: 50px;
+    }
+
+    .weDwellingSectionP2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 17px;
+        margin-top: 10px;
+        padding-right: 18px;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
+    .weDwellingSectionLeft {
+        padding: 10px;
+        border-width: 20px;
+    }
+
+    .textDwelling {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .weDwellingSectionP2 {
+        font-size: 14px;
+    }
+
+    html,
+    body {
+        margin-left: 0;
+    }
+
+    .weDwellingSection {
+        margin-top: 0;
+        background-position: 56% 0%;
+        background-size: auto 115%;
+        overflow: visible;
+    }
+
+    .weDwellingSectionLeft {
+        height: 200px;
+        width: 350px;
+    }
+
+    .weDwellingSectionWrapper {
+        height: 700px;
+        padding: 20px;
+    }
+}
+
+.howDoesItWorkSection {
+    background-color: #1a1aff;
+    color: white;
+    padding: 200px;
+}
+
+.mainTitleWork {
+    font-size: 35px;
+    text-align: center;
+    height: 50px;
+}
+
+.paragraphWork {
+    width: 100%;
+    text-align: center;
+}
+
+.textWorkWrapper {
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.iconWork {
+    font-size: 50px;
+}
+
+.stepWork {
+    font-size: 20px;
+    font-weight: 700;
+    height: 80px;
+}
+
+.arrowWork {
+    text-align: right;
+    font-size: 30px;
+}
+
+.textWork {
+
+    text-align: center;
+    margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+
+    .howDoesItWorkSection {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .paragraphWork {
+        display: flex;
+    }
+
+    .arrowWork {
+        text-align: center;
+    }
+}
+
+
+.buildingTogetherFutureSection {
+    background-image: url(Images/Media/pexels-photo-3204506.jpeg);
+    background-position: 100% 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+.mainTitleFuture {
+    padding: 80px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.circleFutureWrapper {
+    width: 40%;
+}
+
+.contentFutureWrapper {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.futureRow {
+    display: flex;
+}
+
+.circleFuture {
+    color: blue;
+}
+
+.featureIcon {
+    margin-bottom: 70px;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 40px;
+    width: 40%;
+}
+
+.featureText {
+    width: 60%
+}
+
+.featureIcon2 {
+    margin-bottom: 70px;
+    text-align: right;
+}
+
+.featureIcon3 {
+    margin-bottom: 70px;
+    text-align: right;
+}
+
+.headerListFuture {
+    font-size: 25px;
+    float: left;
+    margin-top: o;
+    color: white;
+    width: 100%;
+}
+
+.workListWrapper {
+    margin-bottom: 0;
+    padding-right: 20px;
+    display: flex;
+}
+
+.workListTitles {
+    margin: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.workListDescription1 {
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.workListDescription2 {
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.workListDescription3 {
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+
+    .mainTitleFuture {
+        padding: 40px;
+    }
+
+    .futureRow {
+        height: 500px;
+        align-items: center;
+    }
+
+    .workListTitles {
+        font-size: 20px;
+    }
+
+    .workListDescription1 {
+        font-size: 13px;
+    }
+
+    .workListDescription2 {
+        font-size: 13px;
+    }
+
+    .workListDescription3 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .buildingTogetherFutureSection {
+        padding-bottom: 250px;
+    }
+
+    .futureRow {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+
+    .workListWrapper {
+        display: block;
+        padding: 0;
+    }
+
+    .workListTitles {
+        margin: 0;
+    }
+
+    .featureText {
+        width: auto;
+    }
+
+    .featureIcon {
+        margin: 0;
+        text-align: left;
+    }
+
+    .futureRow {
+        flex-wrap: nowrap;
+    }
+
+    .contentFutureWrapper {
+        margin-left: 60px;
+    }
+}
+
+.meetOurTeamSection {
+    background-color: #1a1aff;
+}
+
+.meetTeamContent {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.meetTeamRow {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.meetTeamWrapper {
+    display: inline-flex;
+    margin: 0px;
+    background-color: black;
+}
+
+.meetTeam {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.meetTeamImg {
+    height: 300px;
+    Width: 300px;
+}
+
+.titleOurTeam {
+    font-weight: 700;
+}
+
+.readMore {
+    color: #1a1aff;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+.meetTeamImg:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    color: black;
+}
+
+@media (max-width: 1200px) {
+
+    .titleOurTeam {
+        font-size: 30px;
+    }
+
+    .textMeetOurTeam {
+        font-size: 15px;
+    }
+
+    .readMore {
+        font-size: 15px;
+    }
+
+    .meetTeamContent {
+        font-size: 0;
+    }
+
+    .meetTeamRow {
+        display: inline-table;
+        width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .meetTeamWrapper {
+        display: block;
+    }
+
+    .meetTeamRow {
+        width: auto;
+    }
+}
+
+.testimonialsSection {
+    margin-bottom: 100px;
+}
+
+.rowTestimonial {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.learnMore {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.learnMoreButton {
+    text-align: left;
+    margin-left: 160px;
+}
+
+.titleNina {
+    margin-top: 90px;
+    margin-left: 160px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.paragrafNina {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 160px;
+}
+
+.rectangleWrapper {
+    margin-left: 0;
+}
+
+.rectangleWeb {
+    display: block;
+}
+
+
+.rectangleMobile {
+    display: none;
+}
+
+.rectangle {
+    height: 190px;
+    width: 700px;
+    background-color: #1a1aff;
+    margin-left: 0 !important;
+    margin-top: 425px;
+}
+
+.testimonialWrapper {
+    padding: 0;
+}
+
+.testimonialNoraWrapper {
+    padding: 0;
+}
+
+.titleTestimonials {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.imgTestimonials {
+    margin-right: 0px;
+    text-align: center;
+}
+
+.imgTest {
+    width: 90%;
+    margin-top: 70px;
+}
+
+.titleNora {
+    margin-top: 800px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.paragrafNora {
+    text-align: left;
+    padding-right: 140px;
+}
+
+.learnMore2 {
+    margin-left: -160px;
+    border: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+
+    .testimonialNoraWrapper {
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .titleNora {
+        margin-top: 50px;
+    }
+
+    .titleNina {
+        margin-left: 0;
+        padding-left: 50px;
+    }
+
+    .paragrafNina {
+        margin-left: 0;
+        padding-left: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .paragrafNina {
+        margin-right: 50px;
+    }
+
+    .paragrafNora {
+        margin-right: 50px;
+        padding-right: 0px;
+        font-size: 18px;
+    }
+
+    .learnMoreButton {
+        margin-left: 50px;
+    }
+
+    .titleTestimonials {
+        margin-top: 100px;
+    }
+
+    .imgTestimonials {
+        width: 80%;
+    }
+
+    .learnMore2 {
+        margin-left: -50px;
+    }
+
+    .rectangle {
+        margin-top: -100px;
+        height: 150px;
+        width: 200px;
+    }
+
+    .rectangleWeb {
+        display: none;
+    }
+
+    .rectangleMobile {
+        display: block;
+    }
+}
+
+.yourQuestionSection {
+    background-image: url(Images/Media/pexels-photo-5646794.jpeg);
+    background-size: 100% 218%;
+    background-position: bottom;
+    text-align: center;
+    height: 800px;
+}
+
+.titleAccordion {
+    color: white;
+    padding-top: 80px;
+    padding: 80px;
+}
+
+.yourQuestionContent {
+    width: 100%;
+}
+
+.accordionAnswereWrapper {
+    text-align: center;
+    margin: 50px 300px 100px;
+}
+
+.accordionAnswareHeader {
+    margin-bottom: 50px;
+}
+
+.accordionAnswere {
+    text-align: center;
+}
+
+.accordionFirst {
+    border-radius: 100px !important;
+    border-collapse: separate;
+}
+
+.accordion-button {
+    border-radius: 100px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    border-color: black;
+}
+
+.accordion-item {
+    border: 0;
+    background-color: transparent;
+}
+
+.accordion-body {
+    color: white;
+}
+
+#headingTwo {
+    border-radius: 100px;
+}
+
+.accordionButtonCollapsed {
+    border-radius: 30px !important;
+}
+
+@media (max-width: 1200px) {
+
+    .accordionAnswereWrapper {
+        margin: 50px 100px;
+    }
+
+    .titleAccordion {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .yourQuestionSection {
+        background-size: 100% 100%;
+    }
+
+    .accordionAnswereWrapper {
+        margin: 50px 50px;
+    }
+}
+
+.contactsWrapper {
+    background-color: #1a1aff;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.contactsForm {
+    text-align: left;
+}
+
+.seventhTitle {
+    text-align: left;
+    font-size: 45px;
+}
+
+.contactsDescription {
+    font-size: 25px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.contactsFoto {
+    object-fit: cover;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.form-control {
+    margin: 0;
+    border: 0;
+    border-width: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #1a1aff;
+    font-size: 20px;
+    padding: 0;
+}
+
+.form-group {
+    font-size: 23px;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    width: 700px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    width: 120px;
+    padding: 10p;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+
+    .seventhTitle {
+        font-size: 35px;
+    }
+
+    .contactsWrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
+
+    .contactsDescription {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .form-group {
+        font-size: 18px;
+        width: 400px;
+    }
+
+    .form-groupLast {
+        padding-bottom: 100px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .seventhTitle {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .contactsWrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+
+    .contactsDescription {
+        font-size: 15px;
+    }
+
+    .contactsParagraph {
+        padding-right: 30px;
+    }
+
+    .contactsForm {
+        margin-left: 50px;
+    }
+
+    .form-group {
+        max-width: 500px;
+        min-width: 300px;
+    }
+
+}
+
+footer {
+    background-color: #38393b;
+    color: white;
+    text-align: center;
+}
+
+.footerParagraph {
+    padding: 30px;
+}
+
+a {
+    color: white;
+}
+
